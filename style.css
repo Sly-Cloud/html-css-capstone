@@ -1,0 +1,98 @@
+* {
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: cocogoose;
+  src: url(font/Cocogoose.otf);
+}
+
+ul, a, li {
+  list-style: none;
+  text-decoration: none;
+
+}
+
+#menu {
+  display: none;
+}
+
+.menuToggle {
+  font-size: 30px;
+  margin-left: 20px;
+}
+
+.join-menu {
+  padding: 5px;
+  border: 3px solid #ec5242;
+  text-align: center;
+}
+
+.content {
+  background-image: url(images/background-image.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  margin-top: 30px;
+}
+
+.program-info h6 {
+  color: #ec5242;
+  font-family: 'Lato', sans-serif;
+  font-style: bold;
+  font-size: 20px;
+  font-weight: 400;
+  padding-top: 40px;
+  padding-left: 20px;
+  width: 80%;
+}
+
+.program-info h1 {
+  font-family: cocogoose;
+  font-size: 40px;
+  font-weight: 400;
+  padding: 10px 20px;
+  color: #ec5242;
+  width: 80%;
+}
+
+.program-definition, .location {
+  color: #fff;
+  font-style: bold;
+  border: 2px solid #a9a9a9;
+  width: 100%;
+  padding: 10px;
+}
+
+.program-info h3 {
+  font-family: 'cocogoose', sans-serif;
+  font-weight: 400;
+  color: #ec5242;
+}
+
+.main-program {
+  background-color: #272a31;
+  height: 100vh;
+  margin-bottom: 150px;
+}
+
+.main-program h2 {
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+.list-group {
+  margin: 20px;
+}
+
+.main-profile ul li {
+  background-color: #2E3137;
+} 
+
+@media screen and (min-width: 768px){
+  
+}
