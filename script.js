@@ -1,4 +1,4 @@
-let menuToggle = function () {
+const menuToggle = function () {
   let navigation = document.getElementById('myTopnav');
   if (navigation.className === 'topnav') {
     navigation.className += ' responsive';
@@ -6,7 +6,7 @@ let menuToggle = function () {
     navigation.className = 'topnav';
   }
   return menuToggle();
-}
+};
 
 const speakerList = document.querySelector('#speakers-list');
 
