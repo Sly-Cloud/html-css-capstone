@@ -475,12 +475,7 @@ footer .rights {
     font-size: 1rem;
   }
 
-  /* 
-  =========================================  
-  SCREEN SETTING FOR THE PAST CONFERENCE 
-  SECTION IN THE ABOUT PAGE 
-  =========================================
-  */
+  /* SCREEN SETTING FOR THE PAST CONFERENCE SECTION IN THE ABOUT PAGE */
 
   .summits-list {
     display: flex;
@@ -497,11 +492,7 @@ footer .rights {
     margin-bottom: 0;
   }
 
-  /* 
-  =========================================
-  MORE INFO SCREEN SETTING IN THE HOME PAGE
-  =========================================
-  */
+  /* MORE INFO SCREEN SETTING IN THE HOME PAGE */
 
   .more-info h1 {
     text-align: center;
@@ -526,12 +517,7 @@ footer .rights {
     width: 100%;
   }
 
-  /* 
-  =========================================
-    STYLING FOR THE PARTNERS, JUST BEFORE THE
-    FOOTER SECTION OF THE HOMEPAGE
-  =========================================
-  */
+  /* STYLING FOR THE PARTNERS, JUST BEFORE THE FOOTER SECTION OF THE HOMEPAGE */
 
   .partners img {
     cursor: pointer;
