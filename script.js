@@ -1,4 +1,4 @@
-function menuToggle() {
+let menuToggle = function () {
   let navigation = document.getElementById('myTopnav');
   if (navigation.className === 'topnav') {
     navigation.className += ' responsive';
