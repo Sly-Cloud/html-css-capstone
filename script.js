@@ -1,12 +1,13 @@
-const menuToggle = function () {
+
+let menuToggle = document.querySelector('#menuToggle');
+menuToggle.addEventListener('click', () => {
   let navigation = document.getElementById('myTopnav');
   if (navigation.className === 'topnav') {
     navigation.className += ' responsive';
   } else {
     navigation.className = 'topnav';
-  }
-  return menuToggle();
-};
+  };
+});
 
 const speakerList = document.querySelector('#speakers-list');
 
