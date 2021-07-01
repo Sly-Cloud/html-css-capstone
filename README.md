@@ -1,12 +1,12 @@
 <h2>Psych Conference</h2>
 
-![Screenshot (48)](https://user-images.githubusercontent.com/69966775/124171048-f4ffeb80-da9f-11eb-87e8-587367a29a6e.png)
+![Screenshot (48)](https://user-images.githubusercontent.com/69966775/124172130-5d9b9800-daa1-11eb-8a78-e8856908110d.png)
 
-![Screenshot (49)](https://user-images.githubusercontent.com/69966775/124171056-f92c0900-da9f-11eb-9df4-6824ae1d8d67.png)
+![Screenshot (49)](https://user-images.githubusercontent.com/69966775/124172133-5f655b80-daa1-11eb-9c44-8902cecb9429.png)
 
-![Screenshot (50)](https://user-images.githubusercontent.com/69966775/124171065-faf5cc80-da9f-11eb-84ae-4deb32dd101e.png)
+![Screenshot (50)](https://user-images.githubusercontent.com/69966775/124172136-612f1f00-daa1-11eb-8417-93d26afebb42.png)
 
-![Screenshot (51)](https://user-images.githubusercontent.com/69966775/124171072-fd582680-da9f-11eb-8982-441a01cc9fef.png)
+![Screenshot (51)](https://user-images.githubusercontent.com/69966775/124172142-62604c00-daa1-11eb-8215-fea79a31376f.png)
 
 <h6>First Capstone Project</h6>
 
