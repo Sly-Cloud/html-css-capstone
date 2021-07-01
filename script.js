@@ -1,12 +1,11 @@
-
-let menuToggle = document.querySelector('#menuToggle');
+const menuToggle = document.querySelector('#menuToggle');
 menuToggle.addEventListener('click', () => {
-  let navigation = document.getElementById('myTopnav');
+  const navigation = document.getElementById('myTopnav');
   if (navigation.className === 'topnav') {
     navigation.className += ' responsive';
   } else {
     navigation.className = 'topnav';
-  };
+  }
 });
 
 const speakerList = document.querySelector('#speakers-list');
