@@ -19,20 +19,50 @@
 </head>
 <body>
   <main>
-    <header>
-      <div class="topnav" id="myTopnav">
-        <img class="img-responsive logo" 
-        src="images/psych-logo.png" alt="Psych Conference Logo" />
-        <a href="#project">Project</a>
-        <a href="about.html">About</a>
-        <a href="index.html">Home</a>
-        <a href="javascript:void(0);" class="icon menuToggle" id="menuToggle">
-          <i class="fa fa-bars fs-3"></i>
-        </a>
-      </div>
-    </header>
+    
     <!-- THE FIRST CONTENT, HOLDING THE TITLE, DESCRIPTION AND THE LOCATION OF THE EVENT -->
     <div class="content">
+      <div class="social-icons p-1">
+        <ul class="social-list d-flex justify-content-end">
+          <li class="social-list-item">
+            <a href="index.html">
+              <img src="images/facebook-socials.png" alt="Connect on Facebook">
+            </a>
+          </li>
+          <li class="social-list-item">
+            <a href="index.html">
+              <img src="images/twitter-socials.png" alt="Connect on Twitter">
+            </a>
+          </li>
+          <li class="social-list-item">
+            <a href="index.html"> English</a>
+          </li>
+          <li class="social-list-item">
+            <a href="index.html">My Page</a>
+          </li>
+          <li class="social-list-item">
+            <a href="index.html">Logout</a>
+          </li>
+        </ul>
+      </div>
+      <header>
+      <div class="topnav" id="myTopnav">
+        <div class="topnav-item">
+          <a href="index.html">
+            <img class="img-responsive logo" 
+            src="images/psych-logo.png" alt="Psych Conference Logo" /> 
+          </a>
+        </div>
+        <div class="topnav-links">
+          <a href="#project">Project</a>
+          <a href="about.html">About</a>
+          <a class="active" href="index.html">Home</a>
+          <a href="javascript:void(0);" class="icon menuToggle" id="menuToggle">
+          <i class="fa fa-bars fs-3"></i>
+        </a>
+        </div>       
+      </div>
+      </header>
       <div class="program-info" id="program">
         <h6>"Where spoken words become powerful!"</h6>
         <h1>SPOKEN WORDS AND MENTAL HEALTH | CONFERENCE 2021</h1>
@@ -94,111 +124,6 @@
         </div>
       </div>
     </section>
-    <!-- <section class="featured-speakers">
-      FEATURED SPEAKERS SECTION
-      <h2 class="featured-heading pt-4 text-center fs-3">
-        Featured Speakers
-        <hr style="width:10%; height: 3px; margin-left:45%; margin-right:25%; color: #ec5242;" />
-      </h2>
-      LIST OF SPEAKERS
-      <ul class="speaker-list">
-          <li class="speaker-item d-flex">
-            <img src="images/Wilhelm.png" style="width: 30%; height: 190px" alt="Alfred Adler">
-            <div>
-              <h6>Usman Suleiman</h6>
-              <small>University of Ilorin, Ilorin, Kwara State</small>
-              <p class="line"></p>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem dolor unde, 
-                consectetur,illum, sed accusamus maiores placeat sit molestiae commodi deserunteos 
-                recusandae quam laboriosam adipisci natus laudantium impedit quis?
-              </p>
-            </div>
-          </li>
-          <li class="speaker-item d-flex">
-            <img src="images/Wilhelm.png" style="width: 30%; height: 190px" alt="Alfred Adler">
-            <div>
-              <h6>Omoogun Olawale</h6>
-              <small>University of Ilorin, Ilorin, Kwara State</small>
-              <p class="line"></p>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem dolor unde, 
-                consectetur,illum, sed accusamus maiores placeat sit molestiae commodi deserunteos 
-                recusandae quam laboriosam adipisci natus laudantium impedit quis?
-              </p>
-            </div>
-          </li>
-          <li class="speaker-item d-flex">
-            <img src="images/Wilhelm.png" style="width: 30%; height: 190px" alt="Alfred Adler">
-            <div>
-              <h6>Adonike Sylvester</h6>
-              <small>University of Ilorin, Ilorin, Kwara State</small>
-              <p class="line"></p>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem dolor unde, 
-                consectetur,illum, sed accusamus maiores placeat sit molestiae commodi deserunteos 
-                recusandae quam laboriosam adipisci natus laudantium impedit quis?
-              </p>
-            </div>
-          </li>
-          <li class="speaker-item d-flex">
-            <img src="images/Wilhelm.png" style="width: 30%; height: 190px" alt="Alfred Adler">
-            <div>
-              <h6>Umeh Juliet</h6>
-              <small>University of Ilorin, Ilorin, Kwara State</small>
-              <p class="line"></p>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem dolor unde, 
-                consectetur,illum, sed accusamus maiores placeat sit molestiae commodi deserunteos 
-                recusandae quam laboriosam adipisci natus laudantium impedit quis?
-              </p>
-            </div>
-          </li>
-          <li class="speaker-item d-flex">
-            <img src="images/Wilhelm.png" style="width: 30%; height: 190px" alt="Alfred Adler">
-            <div>
-              <h6>Yahya Bello</h6>
-              <small>University of Ilorin, Ilorin, Kwara State</small>
-              <p class="line"></p>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem dolor unde, 
-                consectetur,illum, sed accusamus maiores placeat sit molestiae commodi deserunteos 
-                recusandae quam laboriosam adipisci natus laudantium impedit quis?
-              </p>
-            </div>
-          </li>
-          <li class="speaker-item d-flex">
-            <img src="images/Wilhelm.png" style="width: 30%; height: 190px" alt="Alfred Adler">
-            <div>
-              <h6>Zeenat Lawal</h6>
-              <small>University of Ilorin, Ilorin, Kwara State</small>
-              <p class="line"></p>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem dolor unde, 
-                consectetur,illum, sed accusamus maiores placeat sit molestiae commodi deserunteos 
-                recusandae quam laboriosam adipisci natus laudantium impedit quis?
-              </p>
-            </div>
-          </li>
-        </div>        
-      </ul>
-    </section> -->
-
-    <!-- MORE INFORMATION SECTION -->
-    <!-- <img src="images/" alt="">
-
-    <section class="more-info">
-      <div>
-        <h1>
-          PSYCH AND MENTAL HEALTH | SPOKEN WORDS CONFERENCE 2021
-        </h1>
-        <p class="more-info-detail"> This is an bi-annual Psychology Conference that 
-          brings togther prominent Psychologists in the world, to share knowledge,
-          tackle problems and seek solutions to impending dangers of mental health.
-          This year's conference would be in a conducive environment of Sheraton
-          Hotels, Abuja, Nigeria. It would hold for 3days, from 17th - 20th of October, 2021.
-          For this year, we'll be expecting a host of professional in the field of
-          Mental Health and there would discussion time, where we socialize and learn.</p>
-      </div>
-      <div class="email-us">
-        <p>For more information on this event, <br /> please contact the helpdesk!</p>
-        <a href="mailto:nnaemekasilver@gmail.com">nnaemekasilver@gmail.com</a>
-      </div>
-    </section> -->
     <section class="partners text-center">
       <h1 class="pt-4 partners-heading">Partner</h1>
       <ul class="partners-list d-flex flex-row justify-content-between m-5">

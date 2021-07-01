@@ -32,7 +32,29 @@ button {
 
 /* STYLING THE MENU AND PUTTING OFF THE MENU FOR MOBILE VERSION */
 
+.social-icons {
+  background-color: #272a31;
+  display: none;
+}
+
+.social-icons ul {
+  display: flex;
+  gap: 10px;
+  margin-right: 10px;
+}
+
+.social-icons a {
+  text-decoration: none;
+  padding: 10px 0 0 10px;
+  color: #fff;
+}
+
+.social-icons img {
+  width: 20px;
+}
+
 .logo {
+  display: none;
   padding-left: 5px;
   margin: 10px;
   width: 10%;
@@ -40,13 +62,12 @@ button {
 
 .topnav {
   overflow: hidden;
-  background-color: #ec5242;
 }
 
 .topnav a {
   float: right;
   display: block;
-  color: #f2f2f2;
+  color: #272a31;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -77,7 +98,7 @@ button {
 /* MAIN CONTENT/BODY AREA OF THE WEBSITE */
 
 .content {
-  background-image: url(images/background-image.jpg);
+  background-image: url(images/background.svg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -103,7 +124,6 @@ button {
 }
 
 .program-definition {
-  color: #fff;
   border: 2px solid #a9a9a9;
   padding: 10px;
   margin: 10px;
@@ -132,13 +152,14 @@ button {
 }
 
 .main-program ul li {
+  background-color: rgba(255, 255, 255, 0.03);
+  color: #fff;
   display: grid;
   grid-template-columns: 24px 55px auto;
   gap: 20px;
+  margin: 10px;
+  width: 90%;
   align-items: center;
-  color: #fff;
-  margin-bottom: 10px;
-  background-color: rgba(255, 255, 255, 0.03);
 }
 
 .main-program li:hover {
@@ -166,8 +187,13 @@ button {
 }
 
 .list-group {
-  width: 95%;
+  width: 100%;
+  height: 100%;
   margin: 30px;
+}
+
+.list-para {
+  font-size: 15px;
 }
 
 .program-item-title {
@@ -176,10 +202,6 @@ button {
 
 .program-icon {
   font-size: 25px;
-}
-
-.list-para {
-  font-size: 12px;
 }
 
 .register-button {
@@ -346,10 +368,10 @@ button {
   margin-bottom: 1rem;
 }
 
-/* THIS IS THE START OF MORE INFO STYLING */
+/* THIS IS THE START OF MORE INFO IN THE ABOUT US PAGE STYLING */
 
 .more-info {
-  background: #272a31;
+  background-image: url(images/background.svg);
   color: #fff;
   padding: 20px;
 }
@@ -357,10 +379,8 @@ button {
 .more-info-detail {
   font-size: 17px;
   color: #272a31;
-  background-color: #d3d3d3;
+  border: 1px solid #a9a9a9;
   text-align: center;
-  padding: 10px;
-  margin-top: 20px;
   line-height: 1.5rem;
 }
 
@@ -372,18 +392,35 @@ button {
 }
 
 .email-us {
+  color: #272a31;
   padding: 20px;
   text-align: center;
+}
+
+/* STYLING FOR THE LOGO SECTION IN THE ABOUT PAGE*/
+
+.prize-logo img {
+  border: 1px solid #d3d3d3;
+  width: 40%;
+  height: 50%;
+  padding: 20px;
+}
+
+.prize-text {
+  text-align: center;
+  line-height: 1.5rem;
+  margin: 20px;
 }
 
 /* THIS IS THE STYLING FOR THE PARTNERS SECTION */
 
 .partners {
-  background-color: #f6f6f6;
+  background-color: #272a31;
   height: 300px;
 }
 
 .partners-heading {
+  color: #fff;
   position: relative;
 }
 
@@ -410,8 +447,11 @@ button {
 /* FOOTER SECTION */
 
 footer {
-  background-color: #ec5242;
-  color: #fff;
+  padding: 0 10px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  color: #272a31;
 }
 
 footer .rights {
@@ -424,7 +464,7 @@ footer .rights {
   }
 
   .topnav a.icon {
-    float: right;
+    float: left;
     display: block;
   }
 }
@@ -448,12 +488,26 @@ footer .rights {
 }
 
 @media screen and (min-width: 768px) {
+  .social-icons {
+    display: block;
+  }
+
   .menuToggle {
     display: none;
   }
 
   .logo {
-    width: 60px;
+    display: inline-block;
+    width: 70px;
+  }
+
+  .topnav-links {
+    padding: 20px;
+  }
+
+  .topnav {
+    display: flex;
+    justify-content: space-between;
   }
 
   #program {
@@ -463,6 +517,14 @@ footer .rights {
 
   #program h6 {
     font-size: 25px;
+  }
+
+  .list-group {
+    text-align: center;
+  }
+
+  .list-para {
+    font-size: 15px;
   }
 
   .speakers-list {
@@ -518,6 +580,15 @@ footer .rights {
   }
 
   /* STYLING FOR THE PARTNERS, JUST BEFORE THE FOOTER SECTION OF THE HOMEPAGE */
+  .partners {
+    background-color: #d3d3d3;
+    height: 300px;
+  }
+
+  .partners-heading {
+    color: #272a31;
+    position: relative;
+  }
 
   .partners img {
     cursor: pointer;
@@ -525,10 +596,9 @@ footer .rights {
 
   footer {
     color: #fff;
-    background-color: #ec5242;
+    background-color: #272a31;
     padding: 35px;
     display: flex;
-    flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
   }
 }
