@@ -1,6 +1,5 @@
 <h2>Psych Conference</h2>
 
-
 ![Screenshot (45)](https://user-images.githubusercontent.com/69966775/124003051-63747900-d9ce-11eb-830e-f6d0c6c5144c.png)
 
 <h6>First Capstone Project</h6>
@@ -16,6 +15,10 @@ Additional description about the project and its features.
 ## Live demo
 
 This is the [live demo](https://sly-cloud.github.io/html-css-capstone/) of my capstone project.
+
+## Presentation Video
+
+This [video](https://www.loom.com/share/7117d7bbad67485dbe1d6c4bf97434a1) explains the aspects of the website and the idea behind it
 
 Getting Started
 
@@ -50,7 +53,7 @@ Give a ⭐️ if you like this project!
 *Usman Suleiman for his support
 *Omoogun Olawale for his time and support too
 *Hat tip to anyone whose code was used
-*Inspiration
+\*Inspiration
 \*etc
 
 📝 License
