@@ -59,10 +59,10 @@ Give a ⭐️ if you like this project!
 
 <h3>Acknowledgments</h3>
 
-*Originally designed by [Cindy Shin in Behance](https://www.behance.net/adagio07).
-*Usman Suleiman for his support
-*Omoogun Olawale for his time and support too
-*Hat tip to anyone whose code was used
+- Originally designed by [Cindy Shin in Behance](https://www.behance.net/adagio07).
+- Usman Suleiman for his support
+- Omoogun Olawale for his time and support too
+- Hat tip to anyone whose code was used
 \*Inspiration
 \*etc
 
