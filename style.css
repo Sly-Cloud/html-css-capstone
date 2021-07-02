@@ -85,18 +85,10 @@ button {
   display: none;
 }
 
-/* STYLING THE JOIN MENU BUTTON */
-
-/* .join-menu {
-    padding: 5px;
-    border: 3px solid #ec5242;
-  } */
-
 /* MAIN CONTENT/BODY AREA OF THE WEBSITE */
 
 .content {
   background-image: url(images/background.svg);
-  background-position: cover;
   background-repeat: no-repeat;
   background-size: cover;
   margin-bottom: 30px;
@@ -446,7 +438,7 @@ button {
 footer {
   display: flex;
   justify-content: center;
-  margin:10px;
+  margin: 10px;
   gap: 100px;
   background-color: #fff;
   color: #272a31;
