@@ -73,6 +73,11 @@ button {
   font-size: 17px;
 }
 
+email-us a {
+  color: #272a31;
+  font-weight: bold;
+}
+
 .topnav a:hover {
   color: #272a31;
   background-color: #ddd;
@@ -385,11 +390,6 @@ button {
   color: #272a31;
   padding: 20px;
   text-align: center;
-}
-
-.email-us a {
-  color: #272a31;
-  font-weight: bold;
 }
 
 /* STYLING FOR THE LOGO SECTION IN THE ABOUT PAGE */
