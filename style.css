@@ -74,6 +74,7 @@ button {
 }
 
 .topnav a:hover {
+  color: #272a31;
   background-color: #ddd;
 }
 
