@@ -387,6 +387,11 @@ button {
   text-align: center;
 }
 
+.email-us a {
+  color: #272a31;
+  font-weight: bold;
+}
+
 /* STYLING FOR THE LOGO SECTION IN THE ABOUT PAGE */
 
 .prize-logo img {
