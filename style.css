@@ -446,7 +446,8 @@ button {
 footer {
   display: flex;
   justify-content: center;
-  gap: 180px;
+  margin:10px;
+  gap: 100px;
   background-color: #fff;
   color: #272a31;
 }
@@ -454,7 +455,7 @@ footer {
 footer .rights {
   padding-top: 5px;
   line-height: 1.5rem;
-  font-size: 14px;
+  font-size: 13px;
 }
 
 @media screen and (max-width: 600px) {
@@ -597,5 +598,9 @@ footer .rights {
     color: #fff;
     background-color: #272a31;
     padding: 35px;
+  }
+
+  .rights {
+    font-size: 14px;
   }
 }
