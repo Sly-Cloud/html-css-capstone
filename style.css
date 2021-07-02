@@ -76,12 +76,10 @@ button {
 
 .topnav a:hover {
   background-color: #ddd;
-  color: black;
 }
 
 .topnav a.active {
-  background-color: #04aa6d;
-  color: white;
+  color: #ec5242;
 }
 
 .topnav .icon {
@@ -90,16 +88,16 @@ button {
 
 /* STYLING THE JOIN MENU BUTTON */
 
-.join-menu {
-  padding: 5px;
-  border: 3px solid #ec5242;
-}
+  /* .join-menu {
+    padding: 5px;
+    border: 3px solid #ec5242;
+  } */
 
 /* MAIN CONTENT/BODY AREA OF THE WEBSITE */
 
 .content {
   background-image: url(images/background.svg);
-  background-position: center;
+  background-position: cover;
   background-repeat: no-repeat;
   background-size: cover;
   margin-bottom: 30px;
@@ -447,9 +445,8 @@ button {
 /* FOOTER SECTION */
 
 footer {
-  padding: 0 10px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   background-color: #fff;
   color: #272a31;
 }
@@ -479,7 +476,7 @@ footer .rights {
     float: left;
     display: block;
   }
-  
+
   .topnav.responsive a {
     float: none;
     display: block;
@@ -506,6 +503,7 @@ footer .rights {
   }
 
   .topnav {
+    background-color: #fff;
     display: flex;
     justify-content: space-between;
   }
@@ -598,7 +596,5 @@ footer .rights {
     color: #fff;
     background-color: #272a31;
     padding: 35px;
-    display: flex;
-    justify-content: space-between;
   }
 }
