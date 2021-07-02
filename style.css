@@ -56,7 +56,6 @@ button {
 .logo {
   display: none;
   padding-left: 5px;
-  margin: 10px;
   width: 10%;
 }
 
@@ -88,7 +87,7 @@ button {
 
 /* STYLING THE JOIN MENU BUTTON */
 
-  /* .join-menu {
+/* .join-menu {
     padding: 5px;
     border: 3px solid #ec5242;
   } */
@@ -447,15 +446,16 @@ button {
 footer {
   display: flex;
   justify-content: center;
+  gap: 180px;
   background-color: #fff;
   color: #272a31;
 }
 
 footer .rights {
-  font-size: 13px;
+  padding-top: 5px;
+  line-height: 1.5rem;
+  font-size: 14px;
 }
-
-
 
 @media screen and (max-width: 600px) {
   .topnav.responsive {
@@ -468,7 +468,7 @@ footer .rights {
     top: 0;
   }
 
-   .topnav a {
+  .topnav a {
     display: none;
   }
 
@@ -504,6 +504,7 @@ footer .rights {
 
   .topnav {
     background-color: #fff;
+    filter: drop-shadow(0 0 16px rgba(64, 83, 252, 0.24));
     display: flex;
     justify-content: space-between;
   }
